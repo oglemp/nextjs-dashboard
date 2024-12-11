@@ -17,6 +17,8 @@ export default function RevenueChart({ revenue }: RevenueChartProps) {
     return <p className="mt-4 text-gray-400">No data available.</p>;
   }
 
+  console.log('Rendering RevenueChart with data:', revenue);
+
   return (
     <div className="w-full md:col-span-4">
       <h2 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
